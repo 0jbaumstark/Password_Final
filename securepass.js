@@ -18,9 +18,9 @@ function lengthCheck(password){
 //returns true or false if there is an uppercase character in the password
 function upperCaseCheck(password){
 
-  for(/*here*/){
+  for(i = 0; i > password.length; i++ ){
 
-    if(/*here*/){
+    if(password.charCodeAt(i) >=65 && password.charCodeAt(i) >= 90){
       return true;
     }
 
