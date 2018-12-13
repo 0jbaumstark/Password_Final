@@ -53,14 +53,12 @@ function randomSpecialPass(len){
   
     for(let i= 0; i < len; i++){
   
-      let randomNumber = Math.floor(1*Math.random())+127;
+      let randomNumber = Math.floor(10*Math.random())+33;
       pass += String.fromCharCode(randomNumber);
     }
   
-    return pass;
-
+return pass;
 }
-
 
 
 
